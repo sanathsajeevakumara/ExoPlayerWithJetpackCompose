@@ -1,4 +1,4 @@
-package com.sanath.simplevideoplayerwithjetpackcompose
+package com.sanath.simplevideoplayerwithjetpackcompose.presenter
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
