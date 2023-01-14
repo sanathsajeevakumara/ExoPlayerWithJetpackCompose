@@ -3,8 +3,9 @@ package com.sanath.simplevideoplayerwithjetpackcompose.presenter.metaDataReader
 import android.app.Application
 import android.net.Uri
 import android.provider.MediaStore
+import javax.inject.Inject
 
-class MetaDataReaderImpl(
+class MetaDataReaderImpl @Inject constructor(
     private val app: Application
 ) : MetaDataReader {
     override fun getMetaDataFromUri(contentUri: Uri): MetaData? {
